@@ -9,17 +9,24 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
 
-  <body>
+   <body>
     <div class="main-content">
-      <a href="https://skillbox.ru"><img class="logo" src="img/logo-light.png" alt="эмблема skillbox"></a>
+      <a href="https://github.com/SergejBursow"><img class="logo" src="img/logo-light.png" alt="эмблема skillbox"></a>
         <div class="link">
-          <button>Modules</button> 
-          <a class="card" href="article.html">Indents</a>
+          <button class="card" id="myButton1">Modules</button>
+          <button class="card" id="myButton2">Indents</button>
         </div>
-
       <a href="skillbox.docx" download class="link-style">Скачать программу</a>
-
     </div>
+    <script>
+      document.getElementById('myButton1').addEventListener('click', function() {
+          window.location.href = 'modules.html';
+        });
+  
+      document.getElementById('myButton2').addEventListener('click', function() {
+          window.location.href = 'article.html';
+      });
+  </script>
   </body>
 </html>
 
