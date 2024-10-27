@@ -49,6 +49,8 @@ font-family: Arial, Verdana, sans-serif;
 .logo {
   display: inline-block;
   margin-bottom: 50px;
+  border-radius:50%;
+  
 }
 
 .link {
