@@ -65,6 +65,11 @@ li::after {
   pointer-events: none;
 }
 
+.stile_ikon {
+  margin: 0;
+  padding: 0;
+}
+
 li:hover::after {
   height: 10px;
 }
